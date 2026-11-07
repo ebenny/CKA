@@ -1,0 +1,118 @@
+{
+  "project": "Coding Kids Africa — Option 1",
+  "runtimeAssetsAreLocal": true,
+  "brandColour": "#850b59",
+  "images": [
+    {
+      "file": "public/assets/logo-original.jpg",
+      "source": "User-supplied SAVE_20260924_240204.jpg",
+      "role": "Untouched source identity; not substituted or overwritten"
+    },
+    {
+      "file": "public/assets/logo-horizontal.png",
+      "dimensions": [
+        1900,
+        440
+      ],
+      "source": "AI-assisted horizontal adaptation of the supplied logo, with whitespace trimmed",
+      "role": "Header and footer",
+      "original": "design/originals/logo-horizontal-untrimmed.png",
+      "note": "Raster adaptation; retain user original and obtain an approved vector brand master before production if available"
+    },
+    {
+      "file": "public/assets/hero-learning.webp",
+      "dimensions": [
+        1752,
+        897
+      ],
+      "source": "Built-in ImageGen, grounded in selected mockup",
+      "role": "Previous revision retained for comparison",
+      "original": "design/originals/hero-learning.png"
+    },
+    {
+      "file": "public/assets/hero-learning-mobile.webp",
+      "dimensions": [
+        1137,
+        897
+      ],
+      "source": "Responsive crop of the same hero artwork; x=615, y=0, width=1137, height=897",
+      "role": "Previous revision retained for comparison"
+    },
+    {
+      "file": "public/assets/school-hub.webp",
+      "dimensions": [
+        1601,
+        982
+      ],
+      "source": "Built-in ImageGen, grounded in selected mockup",
+      "role": "Previous revision retained for comparison",
+      "original": "design/originals/school-hub.png"
+    },
+    {
+      "file": "public/assets/hero-learning-neat-cut.webp",
+      "dimensions": [
+        1752,
+        897
+      ],
+      "source": "Built-in ImageGen targeted hairstyle edit",
+      "role": "Active desktop hero",
+      "original": "design/originals/hero-learning-neat-cut.png"
+    },
+    {
+      "file": "public/assets/hero-learning-mobile-neat-cut.webp",
+      "dimensions": [
+        1137,
+        897
+      ],
+      "source": "Responsive crop of edited hero, x=615 y=0",
+      "role": "Active mobile/tablet hero"
+    },
+    {
+      "file": "public/assets/school-hub-neat-cut.webp",
+      "dimensions": [
+        1601,
+        982
+      ],
+      "source": "Built-in ImageGen targeted hairstyle edit",
+      "role": "Active school photograph",
+      "original": "design/originals/school-hub-neat-cut.png"
+    }
+  ],
+  "font": {
+    "family": "Plus Jakarta Sans",
+    "activeFile": "public/assets/fonts/plus-jakarta-sans-latin-wght-normal.woff2",
+    "sourcePackage": "@fontsource-variable/plus-jakarta-sans",
+    "version": "5.3.0",
+    "licence": "design/licenses/Plus-Jakarta-Sans-OFL.txt",
+    "note": "All supplied WOFF2 subsets/styles are retained. Only normal Latin is loaded by the UI."
+  },
+  "icons": {
+    "directory": "public/assets/icons/",
+    "sourcePackage": "@phosphor-icons/core",
+    "version": "2.1.1",
+    "licence": "design/licenses/Phosphor-MIT.txt",
+    "changes": "Original icons: only root fill changed from currentColor to #850b59. Social-logo SVGs retain original currentColor fill. All official path geometry unchanged.",
+    "files": [
+      "house-duotone.svg",
+      "laptop-duotone.svg",
+      "users-three-duotone.svg",
+      "sun-duotone.svg",
+      "check-circle-duotone.svg",
+      "arrow-right.svg",
+      "arrow-left.svg",
+      "x.svg",
+      "list.svg",
+      "download-simple.svg",
+      "copy.svg",
+      "whatsapp-logo.svg",
+      "facebook-logo.svg",
+      "instagram-logo.svg"
+    ],
+    "reactUsage": "Interaction icons use @phosphor-icons/react; standalone equivalents are supplied for developer reuse."
+  },
+  "reference": "design/reference/option-1-approved.png",
+  "generationPrompts": "design/image-prompts.md",
+  "disclosure": "Generated photographs are illustrations, not representations of actual Coding Kids Africa employees, pupils or facilities.",
+  "updated": "2026-11-04",
+  "haircutRevision": "design/haircut-update.md"
+}

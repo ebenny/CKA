@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-24",
+  "browser": "Codex in-app Chromium browser",
+  "url": "http://127.0.0.1:4173/",
+  "overflowDefinition": "documentElement.scrollWidth - documentElement.clientWidth",
+  "checks": [
+    {"width":320,"height":760,"clientWidth":305,"overflow":0,"imagesLoaded":true},
+    {"width":390,"height":844,"clientWidth":375,"overflow":0,"imagesLoaded":true},
+    {"width":820,"height":1180,"clientWidth":805,"overflow":0,"imagesLoaded":true},
+    {"width":1024,"height":900,"clientWidth":1009,"overflow":0,"imagesLoaded":true},
+    {"width":1440,"height":980,"clientWidth":1425,"overflow":0,"imagesLoaded":true}
+  ]
+}
